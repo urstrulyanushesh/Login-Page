@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: url("./logimage.jpg") no-repeat center center fixed;
+/* background: linear-gradient(135deg, #d19bff, #ff9b9b, #8ab4ff);  */
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+}
+
+.profile-icon {
+    width: 80px;
+    height: 80px;
+    background: hsl(297, 88%, 38%);
+    color: #290bd3;
+    font-size: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto;
+    margin-bottom: -40px;
+    z-index: 10;
+    position: relative;
+}
+
+.login-box {
+    width: 340px;
+    padding: 40px 30px;
+    background: #f5f7f6ef;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0px 8px 25px #ec03b9e8;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 18px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 15px 12px 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(248, 7, 176, 0.4);
+}
+
+.input-group .icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: hsl(0, 92%, 48%);
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #11b1dd;
+}
+
+.options input {
+    margin-right: 5px;
+}
+
+.forgot {
+    text-decoration: none;
+    color: #1a2a44;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    color: white;
+    background: #36f407;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}

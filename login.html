@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .neumorphic {
+    background: #e0e5ec; border-radius: 20px;
+    box-shadow: 10px 10px 20px #a3b1c6, -10px -10px 20px #ffffff;
+
+
+}
+
+.neumorphic-inset {
+
+    background: #e0e5ec; border-radius: 20px;
+    box-shadow: inset 10px 20px #a3b1c6, inset -10px 20px #ffffff;
+
+
+}
+.neumorphic-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px; width: 300px;
+    text-align: justify;
+
+}
+    </style>
+</head>
+<body style="background-color: rgb(197, 190, 193);">
+
+    <br/><br/>
+
+    <div class="neumorphic neumorphic-card" style="background-color: hsl(150, 5%, 91%);">
+        <h1 style="color: aqua; text-align: center;">Swagatam!</h1>
+        <h1 style="color: #3104e5;">Login</h1>
+        <input type="text" class="neumorphic neumorphic-input" style="color: hsl(191, 100%, 50%);" placeholder="Username">
+        <input type="password" class="neumorphic neumorphic-input" style="color: hsl(352, 97%, 46%);" placeholder="password">
+        <button class="neumorphic neumorphic-button" style="color:green;">Sign In</button>
+    </div>
+    
+</body>
+</html>
